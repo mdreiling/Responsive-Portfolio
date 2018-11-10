@@ -1,0 +1,316 @@
+body {
+    position: absolute;
+    left: 200px;
+    background-image: url("../images/topography.png");
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 80px;
+    width: 100%;
+    background-color: #ffffff;
+    border-bottom: 2px solid;
+    border-color: #cccccc;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+hr  {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+a   {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+a:hover {
+    color: #4aaaa5;
+    font-weight: bold;
+}
+
+.clearFix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.navBar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 80px;
+    width: 1160px;
+}
+
+.yourNameHere {
+    box-sizing: border-box;
+    position: relative;
+    left: 200px;
+    top: 0px;
+    margin-top: 0px;
+    height: 80px;
+    width: fit-content;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 20px 30px 10px 30px;    
+}
+
+.navLinks {
+    float: right;
+}
+
+.headerTextAbout {
+    box-sizing: border-box;
+    position: relative;
+    top: -70px; 
+    /* float: right; */
+    height: fit-content;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+}
+
+.headerTextPortfolio {
+    box-sizing: border-box;
+    position: relative;
+    top: -70px;
+    /* float: right; */
+    height: fit-content;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-color: #cccccc;
+}
+
+.headerTextContact {
+    box-sizing: border-box;
+    position: relative;
+    top: -70px; 
+    /* float: right; */
+    height: fit-content;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+}
+
+
+
+.pageTitle {
+    color: #4aaaa5;
+}
+
+.content {
+    width: 960px;
+    margin-top: 100px;
+    background-color: #ffffff;
+    padding: 20px;
+    padding-top: 5px;
+    margin-bottom: 50px;
+    height: fit-content;
+}
+
+#PhotoOfMe {
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.aboutMe {
+    margin-bottom: 50px;
+}
+
+.galleryImage {
+    float: left;
+    margin-right: 40px;
+    margin-bottom: -40px;
+}
+
+#webDev {
+    /* position: absolute; */
+    /* top: 225px; */
+    height: 200px;
+    width: 300px;
+}
+
+#dataViz {
+    /* position: absolute; */
+    /* top: 225px; */
+    left: 350px;
+    height: 200px;
+    width: 300px;
+}
+#straPlan {
+    /* position: absolute; */
+    /* top: 475px; */
+    height: 200px;
+    width: 300px;
+
+}
+#ideat {
+    /* position: absolute; */
+    /* top: 475px; */
+    /* left: 350px; */
+    height: 200px;
+    width: 300px;
+}
+
+#photog {
+    /* position: absolute; */
+    /* top: 725px; */
+    height: 200px;
+    width: 300px;
+}
+
+.galleryImageLabel {
+    box-sizing: border-box;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    bottom: 70px;
+    width: 300px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+textarea {
+    max-width: 950px;
+    width: 950px;
+    margin-right: 20px;
+}
+
+footer {
+    box-sizing: border-box;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 50px;
+    width: 100%;
+    margin-bottom: 0;
+    padding-top: 10px;
+    background-color: #666666;
+    border-top: 5px solid #4aaaa5;
+    text-align: center;
+    color: #ffffff;
+    font-size: 10px;
+}
+
+@media screen and (max-width: 980px) {
+    
+    body {
+        left: 50px;
+    }
+
+    .navBar {
+        width: 900px;
+        margin: auto;
+    }
+
+    .yourNameHere {
+        left: 50px;
+    }
+
+    .content {
+        width: 800px;
+        margin: auto;
+        margin-top: 100px;
+    }
+
+    textarea {
+        width: 780px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    
+    body {
+        left: 20px;
+    }
+
+    .navBar {
+        width: 728px;
+        margin: auto;
+    }
+
+    .yourNameHere {
+        left: 20px;
+    }
+
+    .content {
+        width: 668px;
+        margin: auto;
+        margin-top: 100px;
+    }
+
+    textarea {
+        width: 658px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    
+    body {
+        left: 5px;
+    }
+
+    .navBar {
+        width: 100%;
+        margin: auto;
+        height: fit-content;
+        background-color: #ffffff;
+        border-bottom: 2px solid;
+        border-color: #cccccc;
+    }
+
+    .yourNameHere {
+        width: 100%;
+        height: 60px;
+        padding-top: 10px;
+        left: 0px;
+        padding-left: 2px;
+    }
+
+    .navLinks {
+        position: absolute;
+        bottom: 0px;
+        left: 25%;
+        height: 15px;
+        width: fit-content;
+        margin-bottom: 5px;
+        /* float: none; */
+    }
+
+    .headerTextAbout, .headerTextContact, .headerTextPortfolio {
+        position: unset;
+    }
+
+    .content {
+        width: 572px;
+        margin: auto;
+        margin-top: 100px;
+    }
+
+    textarea {
+        width: 568px;
+    }
+}
